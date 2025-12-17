@@ -1,6 +1,15 @@
 # Shopify Store Leads Database
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgracechen202411%2Fshopify-storeleads-database&env=POSTGRES_URL,POSTGRES_PRISMA_URL,POSTGRES_URL_NON_POOLING&envDescription=Neon%20PostgreSQL%20connection%20strings&envLink=https%3A%2F%2Fneon.tech)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwind-css)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A Next.js web application to browse and search millions of Shopify stores with detailed business information.
+
+![Shopify Store Leads Database](https://img.shields.io/badge/Stores-2.4M%2B-success)
+![Database Size](https://img.shields.io/badge/Database-1.5GB-informational)
 
 ## Features
 
