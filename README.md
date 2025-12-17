@@ -27,6 +27,27 @@ A Next.js web application to browse and search millions of Shopify stores with d
 - **Deployment**: Vercel
 - **ORM**: Vercel Postgres SDK
 
+## ⚠️ Important: Neon Free Tier Limitation
+
+**Neon's free tier has a 500MB storage limit**, but our full dataset is 1.5GB. We provide **two solutions**:
+
+### 🎯 Option 1: Filtered Dataset (Recommended)
+Use the pre-filtered dataset with **551,996 premium stores** (450MB):
+- ✅ Fits in free tier
+- ✅ Contains top stores by traffic
+- ✅ 100% active stores with visit data
+- ✅ Simple single-database setup
+
+**Use this file**: `shopify-storeleads-filtered.csv` (already generated)
+
+### 🔄 Option 2: Multi-Database Setup
+Split data across 3-4 free Neon projects to store all 2.4M records
+- ⚠️ More complex setup
+- ⚠️ Requires multiple Neon accounts/projects
+- ⚠️ Slower queries
+
+**📖 See [DEPLOYMENT_OPTIONS.md](DEPLOYMENT_OPTIONS.md) for detailed instructions on both options.**
+
 ## Setup Instructions
 
 ### 1. Database Setup (Neon)
@@ -41,6 +62,8 @@ A Next.js web application to browse and search millions of Shopify stores with d
 
 ### 2. Import Data
 
+> **Note**: The following uses the filtered dataset (Option 1). For full dataset import, see [DEPLOYMENT_OPTIONS.md](DEPLOYMENT_OPTIONS.md).
+
 1. Install Python dependencies:
    ```bash
    pip install psycopg2-binary
@@ -51,15 +74,20 @@ A Next.js web application to browse and search millions of Shopify stores with d
    export DATABASE_URL="your-neon-connection-string"
    ```
 
-3. Import the CSV chunks (in the chunks/ directory):
+3. Generate the filtered dataset (if not already done):
    ```bash
-   # Import all chunks sequentially
-   for file in ../chunks/shopify-storeleads-part*.csv; do
-     python import-to-neon.py "$file"
-   done
+   # This will create shopify-storeleads-filtered.csv (450MB)
+   python3 filter-data.py
    ```
 
-   This will import all ~2.4M records. The process may take 1-2 hours depending on your connection.
+4. Import the filtered dataset (551K premium stores):
+   ```bash
+   python import-to-neon.py ../shopify-storeleads-filtered.csv
+   ```
+
+   This will import ~552K records. The process takes about 15-20 minutes.
+
+   **For full 2.4M dataset**: See [DEPLOYMENT_OPTIONS.md](DEPLOYMENT_OPTIONS.md) for multi-database setup.
 
 ### 3. Frontend Setup
 
