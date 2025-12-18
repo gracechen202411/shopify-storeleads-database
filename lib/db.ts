@@ -6,32 +6,77 @@ export interface Store {
   merchant_name: string;
   title: string;
   description: string;
+  meta_description?: string;
   categories: string;
+
+  // Platform info
+  platform?: string;
+  plan: string;
+  platform_rank: number;
+  rank: number;
+  status: string;
+
+  // Location
   country_code: string;
   city: string;
   state: string;
+  region?: string;
+  company_location?: string;
+  street_address?: string;
+  zip?: string;
+
+  // Contact info
+  domain_url: string;
+  about_us_url?: string;
+  contact_page_url?: string;
+  emails?: string;
+  phones?: string;
+  whatsapp_url?: string;
+
+  // Social media
+  instagram: string;
+  instagram_url?: string;
+  facebook: string;
+  facebook_url?: string;
+  twitter: string;
+  twitter_url?: string;
+  tiktok: string;
+  tiktok_url?: string;
+  youtube?: string;
+  youtube_url?: string;
+  linkedin_account?: string;
+  linkedin_url?: string;
+  pinterest?: string;
+  pinterest_url?: string;
+
+  // Business metrics
+  employee_count: number;
   estimated_monthly_visits: number;
   estimated_yearly_sales: string;
-  employee_count: number;
-  rank: number;
-  platform_rank: number;
-  status: string;
-  plan: string;
+
+  // Google Ads info
+  has_google_ads?: boolean;
+  google_ads_count?: number;
+  is_new_customer?: boolean;
+  ads_last_checked?: string;
+
+  // Other
+  aliases?: string;
+  language_code?: string;
   created: string;
-  domain_url: string;
-  instagram: string;
-  facebook: string;
-  twitter: string;
-  tiktok: string;
 }
 
 export interface SearchParams {
   query?: string;
   country?: string;
+  state?: string;
+  city?: string;
   category?: string;
   minVisits?: number;
   maxVisits?: number;
   status?: string;
+  hasGoogleAds?: string;
+  isNewCustomer?: string;
   page?: number;
   limit?: number;
 }
@@ -40,10 +85,14 @@ export async function searchStores(params: SearchParams) {
   const {
     query = '',
     country = '',
+    state = '',
+    city = '',
     category = '',
     minVisits = 0,
     maxVisits = 999999999,
     status = '',
+    hasGoogleAds = '',
+    isNewCustomer = '',
     page = 1,
     limit = 50
   } = params;
@@ -69,6 +118,20 @@ export async function searchStores(params: SearchParams) {
   if (country) {
     whereConditions.push(`country_code = $${paramCount}`);
     queryParams.push(country);
+    paramCount++;
+  }
+
+  // State filter
+  if (state) {
+    whereConditions.push(`state ILIKE $${paramCount}`);
+    queryParams.push(`%${state}%`);
+    paramCount++;
+  }
+
+  // City filter
+  if (city) {
+    whereConditions.push(`city ILIKE $${paramCount}`);
+    queryParams.push(`%${city}%`);
     paramCount++;
   }
 
@@ -99,6 +162,20 @@ export async function searchStores(params: SearchParams) {
     paramCount++;
   }
 
+  // Google Ads filter
+  if (hasGoogleAds === 'true') {
+    whereConditions.push(`has_google_ads = true`);
+  } else if (hasGoogleAds === 'false') {
+    whereConditions.push(`has_google_ads = false`);
+  }
+
+  // New customer filter
+  if (isNewCustomer === 'true') {
+    whereConditions.push(`is_new_customer = true`);
+  } else if (isNewCustomer === 'false') {
+    whereConditions.push(`is_new_customer = false`);
+  }
+
   const whereClause = whereConditions.length > 0
     ? `WHERE ${whereConditions.join(' AND ')}`
     : '';
@@ -115,7 +192,8 @@ export async function searchStores(params: SearchParams) {
       id, domain, merchant_name, title, description, categories,
       country_code, city, state, estimated_monthly_visits,
       estimated_yearly_sales, employee_count, rank, platform_rank,
-      status, plan, created, domain_url, instagram, facebook, twitter, tiktok
+      status, plan, created, domain_url, instagram, facebook, twitter, tiktok,
+      has_google_ads, google_ads_count, is_new_customer, ads_last_checked
     FROM stores
     ${whereClause}
     ORDER BY estimated_monthly_visits DESC NULLS LAST
