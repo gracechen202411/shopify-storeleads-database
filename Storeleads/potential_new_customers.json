@@ -1,0 +1,104 @@
+{
+  "checked_at": "2025-12-18T16:09:50.144208",
+  "last_30_days_check": {
+    "www.tfsafari.com": {
+      "has_any_ads": false,
+      "total_ad_count": 0,
+      "has_ads_before_30_days": false,
+      "ad_count_before_30_days": 0,
+      "is_new_customer": true,
+      "checked_at": "2025-12-18T16:12:34.775376"
+    },
+    "rhinowalk.com": {
+      "has_any_ads": false,
+      "total_ad_count": 0,
+      "has_ads_before_30_days": false,
+      "ad_count_before_30_days": 0,
+      "is_new_customer": true,
+      "checked_at": "2025-12-18T16:12:34.775385"
+    },
+    "www.naturnest.com": {
+      "has_any_ads": true,
+      "total_ad_count": 200,
+      "has_ads_before_30_days": true,
+      "ad_count_before_30_days": 40,
+      "is_new_customer": false,
+      "advertiser": "杭州极峰户外用品有限公司",
+      "checked_at": "2025-12-18T16:12:34.775387"
+    },
+    "topens.com": {
+      "has_any_ads": true,
+      "total_ad_count": 40,
+      "has_ads_before_30_days": true,
+      "ad_count_before_30_days": 40,
+      "is_new_customer": false,
+      "advertiser": "杭州三富科技有限公司",
+      "checked_at": "2025-12-18T16:12:34.775388"
+    },
+    "www.changliev.com": {
+      "has_any_ads": false,
+      "total_ad_count": 0,
+      "has_ads_before_30_days": false,
+      "ad_count_before_30_days": 0,
+      "is_new_customer": true,
+      "checked_at": "2025-12-18T16:12:34.775389"
+    },
+    "shuttleart.com": {
+      "has_any_ads": true,
+      "total_ad_count": 1,
+      "has_ads_before_30_days": true,
+      "ad_count_before_30_days": 1,
+      "is_new_customer": false,
+      "advertiser": "杭州简屹进出口有限公司",
+      "checked_at": "2025-12-18T16:12:34.775390"
+    },
+    "www.realsteelknives.com": {
+      "has_any_ads": false,
+      "total_ad_count": 0,
+      "has_ads_before_30_days": false,
+      "ad_count_before_30_days": 0,
+      "is_new_customer": true,
+      "checked_at": "2025-12-18T16:12:34.775391"
+    },
+    "mall.sur-ron.com": {
+      "has_any_ads": false,
+      "total_ad_count": 0,
+      "has_ads_before_30_days": false,
+      "ad_count_before_30_days": 0,
+      "is_new_customer": true,
+      "checked_at": "2025-12-18T16:12:34.775391"
+    },
+    "www.shopluebona.com": {
+      "has_any_ads": true,
+      "total_ad_count": 400,
+      "has_ads_before_30_days": true,
+      "ad_count_before_30_days": 400,
+      "is_new_customer": false,
+      "advertiser": "杭州起兮家具有限公司",
+      "checked_at": "2025-12-18T16:12:34.775392"
+    },
+    "usinepro.com": {
+      "has_any_ads": true,
+      "total_ad_count": 63,
+      "has_ads_before_30_days": true,
+      "ad_count_before_30_days": 63,
+      "is_new_customer": false,
+      "advertiser": "HANGZHOU YUJING NETWORK TECHNOLOGY CO,.LTD.",
+      "checked_at": "2025-12-18T16:12:34.775393"
+    },
+    "www.aostirmotor.com": {
+      "has_any_ads": false,
+      "total_ad_count": 0,
+      "has_ads_before_30_days": false,
+      "ad_count_before_30_days": 0,
+      "is_new_customer": true,
+      "checked_at": "2025-12-18T16:12:34.775394"
+    }
+  },
+  "summary": {
+    "total_checked": 15,
+    "has_recent_ads": 0,
+    "needs_manual_verify": 0,
+    "new_customers_found": 8
+  }
+}

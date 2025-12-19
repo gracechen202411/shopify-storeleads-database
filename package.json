@@ -19,6 +19,7 @@
     "@vercel/postgres": "^0.10.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.23.26",
     "lucide-react": "^0.561.0",
     "next": "^15.1.0",
     "papaparse": "^5.5.3",

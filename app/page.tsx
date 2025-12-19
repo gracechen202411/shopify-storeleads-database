@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { motion } from 'framer-motion';
 import SearchBar from '@/components/SearchBar';
 import StoreCard from '@/components/StoreCard';
 import { Store } from '@/lib/db';
@@ -36,6 +37,8 @@ export default function Home() {
     country: '',
     state: '',
     city: '',
+    category: '',
+    plan: '',
     minVisits: '',
     maxVisits: '',
     minEmployees: '',
@@ -74,6 +77,8 @@ export default function Home() {
         ...(filters.country && { country: filters.country }),
         ...(filters.state && { state: filters.state }),
         ...(filters.city && { city: filters.city }),
+        ...(filters.category && { category: filters.category }),
+        ...(filters.plan && { plan: filters.plan }),
         ...(filters.minVisits && { minVisits: filters.minVisits }),
         ...(filters.maxVisits && { maxVisits: filters.maxVisits }),
         ...(filters.minEmployees && { minEmployees: filters.minEmployees }),
@@ -234,93 +239,166 @@ export default function Home() {
           </div>
 
           {/* Filters */}
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-9 gap-4 mt-4 w-full max-w-full px-4">
-            <select
-              value={filters.country}
-              onChange={(e) => setFilters({ ...filters, country: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            >
-              <option value="">All Countries</option>
-              <option value="US">🇺🇸 United States</option>
-              <option value="CN">🇨🇳 China</option>
-              <option value="HK">🇭🇰 Hong Kong</option>
-              <option value="GB">🇬🇧 United Kingdom</option>
-              <option value="CA">🇨🇦 Canada</option>
-              <option value="AU">🇦🇺 Australia</option>
-            </select>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="w-full max-w-full px-4 mt-6"
+          >
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
+              <h3 className="text-lg font-bold mb-4 text-gray-800 dark:text-white flex items-center gap-2">
+                🔍 高级筛选
+              </h3>
 
-            <input
-              type="text"
-              placeholder="Province/State"
-              value={filters.state}
-              onChange={(e) => setFilters({ ...filters, state: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            />
+              {/* Row 1: Location Filters */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">国家/地区</label>
+                  <select
+                    value={filters.country}
+                    onChange={(e) => setFilters({ ...filters, country: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  >
+                    <option value="">全部国家</option>
+                    <option value="US">🇺🇸 United States</option>
+                    <option value="CN">🇨🇳 China</option>
+                    <option value="HK">🇭🇰 Hong Kong</option>
+                    <option value="GB">🇬🇧 United Kingdom</option>
+                    <option value="CA">🇨🇦 Canada</option>
+                    <option value="AU">🇦🇺 Australia</option>
+                  </select>
+                </div>
 
-            <input
-              type="text"
-              placeholder="City"
-              value={filters.city}
-              onChange={(e) => setFilters({ ...filters, city: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            />
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">省份/州</label>
+                  <input
+                    type="text"
+                    placeholder="输入省份或州"
+                    value={filters.state}
+                    onChange={(e) => setFilters({ ...filters, state: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  />
+                </div>
 
-            <input
-              type="number"
-              placeholder="Min visits/month"
-              value={filters.minVisits}
-              onChange={(e) => setFilters({ ...filters, minVisits: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            />
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">城市</label>
+                  <input
+                    type="text"
+                    placeholder="输入城市名称"
+                    value={filters.city}
+                    onChange={(e) => setFilters({ ...filters, city: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  />
+                </div>
 
-            <input
-              type="number"
-              placeholder="Max visits/month"
-              value={filters.maxVisits}
-              onChange={(e) => setFilters({ ...filters, maxVisits: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            />
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">类目</label>
+                  <input
+                    type="text"
+                    placeholder="如: Fashion, Beauty"
+                    value={filters.category}
+                    onChange={(e) => setFilters({ ...filters, category: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  />
+                </div>
+              </div>
 
-            <input
-              type="number"
-              placeholder="Min employees"
-              value={filters.minEmployees}
-              onChange={(e) => setFilters({ ...filters, minEmployees: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            />
+              {/* Row 2: Business Metrics */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">计划类型</label>
+                  <select
+                    value={filters.plan}
+                    onChange={(e) => setFilters({ ...filters, plan: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  >
+                    <option value="">全部计划</option>
+                    <option value="basic">Basic</option>
+                    <option value="shopify">Shopify</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="plus">Shopify Plus</option>
+                  </select>
+                </div>
 
-            <select
-              value={filters.hasSocial}
-              onChange={(e) => setFilters({ ...filters, hasSocial: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            >
-              <option value="">Social Media</option>
-              <option value="instagram">Has Instagram</option>
-              <option value="facebook">Has Facebook</option>
-              <option value="tiktok">Has TikTok</option>
-              <option value="youtube">Has YouTube</option>
-            </select>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">最小月访问量</label>
+                  <input
+                    type="number"
+                    placeholder="例: 10000"
+                    value={filters.minVisits}
+                    onChange={(e) => setFilters({ ...filters, minVisits: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  />
+                </div>
 
-            <select
-              value={filters.hasGoogleAds}
-              onChange={(e) => setFilters({ ...filters, hasGoogleAds: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            >
-              <option value="">Google Ads</option>
-              <option value="true">📊 Has Ads</option>
-              <option value="false">⭕ No Ads</option>
-            </select>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">最大月访问量</label>
+                  <input
+                    type="number"
+                    placeholder="例: 1000000"
+                    value={filters.maxVisits}
+                    onChange={(e) => setFilters({ ...filters, maxVisits: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  />
+                </div>
 
-            <select
-              value={filters.isNewCustomer}
-              onChange={(e) => setFilters({ ...filters, isNewCustomer: e.target.value })}
-              className="px-4 py-2 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
-            >
-              <option value="">Customer Type</option>
-              <option value="true">🔥 New Customers</option>
-              <option value="false">Existing</option>
-            </select>
-          </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">最小员工数</label>
+                  <input
+                    type="number"
+                    placeholder="例: 10"
+                    value={filters.minEmployees}
+                    onChange={(e) => setFilters({ ...filters, minEmployees: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  />
+                </div>
+              </div>
+
+              {/* Row 3: Social & Ads */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">社交媒体</label>
+                  <select
+                    value={filters.hasSocial}
+                    onChange={(e) => setFilters({ ...filters, hasSocial: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  >
+                    <option value="">全部</option>
+                    <option value="instagram">📷 Has Instagram</option>
+                    <option value="facebook">📘 Has Facebook</option>
+                    <option value="tiktok">🎵 Has TikTok</option>
+                    <option value="youtube">📹 Has YouTube</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Google 广告</label>
+                  <select
+                    value={filters.hasGoogleAds}
+                    onChange={(e) => setFilters({ ...filters, hasGoogleAds: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  >
+                    <option value="">全部</option>
+                    <option value="true">📊 有广告</option>
+                    <option value="false">⭕ 无广告</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">客户类型</label>
+                  <select
+                    value={filters.isNewCustomer}
+                    onChange={(e) => setFilters({ ...filters, isNewCustomer: e.target.value })}
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  >
+                    <option value="">全部</option>
+                    <option value="true">🔥 新客户</option>
+                    <option value="false">老客户</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </motion.div>
 
           <div className="flex gap-4 mt-4 w-full max-w-6xl justify-center">
             <Button
@@ -336,6 +414,8 @@ export default function Home() {
                   country: '',
                   state: '',
                   city: '',
+                  category: '',
+                  plan: '',
                   minVisits: '',
                   maxVisits: '',
                   minEmployees: '',
@@ -377,6 +457,8 @@ export default function Home() {
                       ...(filters.country && { country: filters.country }),
                       ...(filters.state && { state: filters.state }),
                       ...(filters.city && { city: filters.city }),
+                      ...(filters.category && { category: filters.category }),
+                      ...(filters.plan && { plan: filters.plan }),
                       ...(filters.minVisits && { minVisits: filters.minVisits }),
                       ...(filters.maxVisits && { maxVisits: filters.maxVisits }),
                       ...(filters.minEmployees && { minEmployees: filters.minEmployees }),

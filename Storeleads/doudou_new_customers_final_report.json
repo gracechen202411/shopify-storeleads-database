@@ -1,0 +1,72 @@
+{
+  "generated_at": "2025-12-18T16:13:12.514390",
+  "total_checked": 11,
+  "new_customers": 6,
+  "old_customers": 5,
+  "details": {
+    "新客户（从来没打过广告）": [
+      {
+        "domain": "www.tfsafari.com",
+        "monthly_visits": 75729,
+        "reason": "从来没打过谷歌广告"
+      },
+      {
+        "domain": "rhinowalk.com",
+        "monthly_visits": 41266,
+        "reason": "从来没打过谷歌广告"
+      },
+      {
+        "domain": "www.changliev.com",
+        "monthly_visits": null,
+        "reason": "从来没打过谷歌广告"
+      },
+      {
+        "domain": "www.realsteelknives.com",
+        "monthly_visits": null,
+        "reason": "从来没打过谷歌广告"
+      },
+      {
+        "domain": "mall.sur-ron.com",
+        "monthly_visits": null,
+        "reason": "从来没打过谷歌广告"
+      },
+      {
+        "domain": "www.aostirmotor.com",
+        "monthly_visits": null,
+        "reason": "从来没打过谷歌广告"
+      }
+    ],
+    "老客户（不适合）": [
+      {
+        "domain": "www.naturnest.com",
+        "ads": 200,
+        "advertiser": "杭州极峰户外用品有限公司",
+        "reason": "30天前有40个广告，一直在投放"
+      },
+      {
+        "domain": "topens.com",
+        "ads": 40,
+        "advertiser": "杭州三富科技有限公司",
+        "reason": "30天前有40个广告，一直在投放"
+      },
+      {
+        "domain": "shuttleart.com",
+        "ads": 1,
+        "advertiser": "杭州简屹进出口有限公司",
+        "reason": "30天前有1个广告，一直在投放"
+      },
+      {
+        "domain": "www.shopluebona.com",
+        "ads": 400,
+        "advertiser": "杭州起兮家具有限公司",
+        "reason": "大规模投放，老客户"
+      },
+      {
+        "domain": "usinepro.com",
+        "ads": 63,
+        "advertiser": "HANGZHOU YUJING NETWORK TECHNOLOGY CO,.LTD.",
+        "reason": "中规模投放，老客户"
+      }
+    ]
+  }
+}

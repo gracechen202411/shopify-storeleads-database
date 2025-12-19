@@ -72,6 +72,7 @@ export interface SearchParams {
   state?: string;
   city?: string;
   category?: string;
+  plan?: string;
   minVisits?: number;
   maxVisits?: number;
   status?: string;
@@ -88,6 +89,7 @@ export async function searchStores(params: SearchParams) {
     state = '',
     city = '',
     category = '',
+    plan = '',
     minVisits = 0,
     maxVisits = 999999999,
     status = '',
@@ -139,6 +141,13 @@ export async function searchStores(params: SearchParams) {
   if (category) {
     whereConditions.push(`categories ILIKE $${paramCount}`);
     queryParams.push(`%${category}%`);
+    paramCount++;
+  }
+
+  // Plan filter
+  if (plan) {
+    whereConditions.push(`plan ILIKE $${paramCount}`);
+    queryParams.push(`%${plan}%`);
     paramCount++;
   }
 

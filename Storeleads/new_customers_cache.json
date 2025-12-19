@@ -1,0 +1,58 @@
+{
+  "still-running.com": {
+    "ad_count": 200,
+    "advertiser_count": 1,
+    "advertisers": [
+      "Still Running Store"
+    ],
+    "start_date": "2025-11-28",
+    "end_date": "2025-12-18",
+    "has_ads": true,
+    "checked_at": "2025-12-18T15:15:27.832211"
+  },
+  "stopped-recently.com": {
+    "ad_count": 150,
+    "advertiser_count": 1,
+    "advertisers": [
+      "Stopped Recently"
+    ],
+    "start_date": "2024-01-01",
+    "end_date": "2025-11-18",
+    "has_ads": true,
+    "checked_at": "2025-12-18T15:15:27.832592"
+  },
+  "stopped-long-ago.com": {
+    "ad_count": 500,
+    "advertiser_count": 2,
+    "advertisers": [
+      "Old Company"
+    ],
+    "start_date": "2023-01-01",
+    "end_date": "2024-01-01",
+    "has_ads": true,
+    "checked_at": "2025-12-18T15:15:27.832836"
+  },
+  "geckocustom.com": {
+    "ad_count": 2000,
+    "advertiser_count": 2,
+    "advertisers": [
+      "Emma Liu",
+      "深圳市茵格瑞科技有限公司"
+    ],
+    "start_date": "2018-05-31",
+    "end_date": "2025-12-18",
+    "has_ads": true,
+    "checked_at": "2025-12-18T15:34:17.164789"
+  },
+  "multicustomize.com": {
+    "ad_count": 3,
+    "advertiser_count": 1,
+    "advertisers": [
+      "Doggie Doggie E-Commerce LTD"
+    ],
+    "start_date": "2018-05-31",
+    "end_date": "2025-03-30",
+    "has_ads": true,
+    "checked_at": "2025-12-18T15:34:17.165112"
+  }
+}

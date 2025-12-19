@@ -1,0 +1,101 @@
+[
+  {
+    "store_num": 1,
+    "domain": "tfsafari.com",
+    "merchant_name": "TFSAFARI",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 2,
+    "domain": "rhinowalk.com",
+    "merchant_name": "rhinowalk.com",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 3,
+    "domain": "naturnest.com",
+    "merchant_name": "www.naturnest.com",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 4,
+    "domain": "topens.com",
+    "merchant_name": "topens.com",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 5,
+    "domain": "changliev.com",
+    "merchant_name": "www.changliev.com",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 6,
+    "domain": "shuttleart.com",
+    "merchant_name": "Shuttle Art",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 7,
+    "domain": "realsteelknives.com",
+    "merchant_name": "www.realsteelknives.com",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 8,
+    "domain": "mall.sur-ron.com",
+    "merchant_name": "RON ultra bee SUR",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 9,
+    "domain": "shopluebona.com",
+    "merchant_name": "LUE BONA®",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 10,
+    "domain": "usinepro.com",
+    "merchant_name": "usinepro.com",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  },
+  {
+    "store_num": 11,
+    "domain": "aostirmotor.com",
+    "merchant_name": "AOSTIRMOTOR – AOSTIRMOTOR EBIKE",
+    "has_ads": false,
+    "advertiser_count": 0,
+    "total_creatives": 0,
+    "advertisers": []
+  }
+]

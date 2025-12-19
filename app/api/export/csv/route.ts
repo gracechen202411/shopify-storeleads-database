@@ -13,6 +13,7 @@ export async function GET(request: NextRequest) {
       state: searchParams.get('state') || '',
       city: searchParams.get('city') || '',
       category: searchParams.get('category') || '',
+      plan: searchParams.get('plan') || '',
       minVisits: parseInt(searchParams.get('minVisits') || '0'),
       maxVisits: parseInt(searchParams.get('maxVisits') || '999999999'),
       status: searchParams.get('status') || '',

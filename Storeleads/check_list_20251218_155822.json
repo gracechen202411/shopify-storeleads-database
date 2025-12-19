@@ -1,0 +1,218 @@
+{
+  "date_range": {
+    "start": "2025-11-18",
+    "end": "2025-12-18",
+    "description": "检查最近30天是否有广告"
+  },
+  "domains_to_check": [
+    {
+      "domain": "www.tfsafari.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=www.tfsafari.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "rhinowalk.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=rhinowalk.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "www.naturnest.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=www.naturnest.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "topens.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=topens.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "www.changliev.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=www.changliev.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "shuttleart.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=shuttleart.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "www.realsteelknives.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=www.realsteelknives.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "mall.sur-ron.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=mall.sur-ron.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "www.shopluebona.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=www.shopluebona.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "usinepro.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=usinepro.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    },
+    {
+      "domain": "www.aostirmotor.com",
+      "url": "https://adstransparency.google.com/advertiser?advertiserName=www.aostirmotor.com",
+      "instructions": [
+        "1. 访问 Google Ads Transparency 页面",
+        "2. 点击\"日期范围\"筛选器",
+        "3. 设置开始日期：2025-11-18",
+        "4. 设置结束日期：2025-12-18",
+        "5. 查看是否有广告显示",
+        "6. 如果有广告，记录数量",
+        "7. 点击第一个广告，查看\"最后展示时间\""
+      ],
+      "check_fields": {
+        "has_ads_in_last_30_days": null,
+        "ad_count_last_30_days": 0,
+        "first_ad_date": null,
+        "last_seen_date": null
+      }
+    }
+  ]
+}
