@@ -2,6 +2,7 @@
 
 import { Store } from '@/lib/db';
 import { useRouter } from 'next/navigation';
+import FavoriteButton from './FavoriteButton';
 
 interface StoreCardProps {
   store: Store;
@@ -147,7 +148,8 @@ export default function StoreCard({ store, viewMode = 'grid' }: StoreCardProps) 
             {store.domain}
           </a>
         </div>
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-2 flex-wrap items-center">
+          <FavoriteButton storeId={store.id} />
           {store.instagram && (
             <a
               href={`https://instagram.com/${store.instagram}`}

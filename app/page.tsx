@@ -135,13 +135,29 @@ export default function Home() {
                 ✨ 豆豆 & 唯一的销售宝库 · 挖掘全球 Shopify 店铺，冲向销售巅峰！
               </p>
             </div>
-            <Button
-              variant="secondary"
-              onClick={handleLogout}
-              className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30"
-            >
-              退出登录
-            </Button>
+            <div className="flex gap-3">
+              <Button
+                variant="secondary"
+                onClick={() => router.push('/favorites')}
+                className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30"
+              >
+                ⭐ 我的收藏
+              </Button>
+              <Button
+                variant="secondary"
+                onClick={() => router.push('/analytics')}
+                className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30"
+              >
+                📊 数据分析
+              </Button>
+              <Button
+                variant="secondary"
+                onClick={handleLogout}
+                className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30"
+              >
+                退出登录
+              </Button>
+            </div>
           </div>
         </div>
       </header>
@@ -347,12 +363,34 @@ export default function Home() {
         ) : searchResult ? (
           <>
             <div className="mb-6 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-4 rounded-lg border border-purple-200 dark:border-purple-800">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                🎯 找到 <span className="font-bold text-purple-600 dark:text-purple-400 text-xl">{formatNumber(searchResult.total)}</span> 家店铺
-                {currentQuery && (
-                  <span> 匹配关键词 &quot;<span className="font-semibold text-pink-600 dark:text-pink-400">{currentQuery}</span>&quot;</span>
-                )}
-              </p>
+              <div className="flex items-center justify-between">
+                <p className="text-gray-700 dark:text-gray-300 text-lg">
+                  🎯 找到 <span className="font-bold text-purple-600 dark:text-purple-400 text-xl">{formatNumber(searchResult.total)}</span> 家店铺
+                  {currentQuery && (
+                    <span> 匹配关键词 &quot;<span className="font-semibold text-pink-600 dark:text-pink-400">{currentQuery}</span>&quot;</span>
+                  )}
+                </p>
+                <Button
+                  onClick={() => {
+                    const params = new URLSearchParams({
+                      query: currentQuery,
+                      ...(filters.country && { country: filters.country }),
+                      ...(filters.state && { state: filters.state }),
+                      ...(filters.city && { city: filters.city }),
+                      ...(filters.minVisits && { minVisits: filters.minVisits }),
+                      ...(filters.maxVisits && { maxVisits: filters.maxVisits }),
+                      ...(filters.minEmployees && { minEmployees: filters.minEmployees }),
+                      ...(filters.hasSocial && { hasSocial: filters.hasSocial }),
+                      ...(filters.hasGoogleAds && { hasGoogleAds: filters.hasGoogleAds }),
+                      ...(filters.isNewCustomer && { isNewCustomer: filters.isNewCustomer }),
+                    });
+                    window.open(`/api/export/csv?${params}`, '_blank');
+                  }}
+                  className="bg-green-600 hover:bg-green-700 text-white font-semibold"
+                >
+                  📥 导出CSV {searchResult.total > 5000 && `(最多5000条)`}
+                </Button>
+              </div>
             </div>
 
             <div className={viewMode === 'grid' ? 'grid grid-cols-1 md:grid-cols-2 gap-6 mb-8' : 'flex flex-col gap-4 mb-8'}>
