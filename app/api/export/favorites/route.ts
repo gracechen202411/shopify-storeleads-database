@@ -1,32 +1,32 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { searchStores } from '@/lib/db';
+import { sql } from '@vercel/postgres';
+import { cookies } from 'next/headers';
 import Papa from 'papaparse';
 
 export async function GET(request: NextRequest) {
   try {
-    const searchParams = request.nextUrl.searchParams;
+    const cookieStore = await cookies();
+    const userEmail = cookieStore.get('user_email')?.value;
 
-    // Get all filters from query params
-    const params = {
-      query: searchParams.get('query') || '',
-      country: searchParams.get('country') || '',
-      state: searchParams.get('state') || '',
-      city: searchParams.get('city') || '',
-      category: searchParams.get('category') || '',
-      minVisits: parseInt(searchParams.get('minVisits') || '0'),
-      maxVisits: parseInt(searchParams.get('maxVisits') || '999999999'),
-      status: searchParams.get('status') || '',
-      hasGoogleAds: searchParams.get('hasGoogleAds') || '',
-      isNewCustomer: searchParams.get('isNewCustomer') || '',
-      page: 1,
-      limit: 5000 // Max export limit
-    };
+    if (!userEmail) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
 
-    // Fetch data
-    const result = await searchStores(params);
+    // Fetch all favorites for current user with full store data
+    const result = await sql.query(`
+      SELECT
+        s.*,
+        f.notes as favorite_notes,
+        f.priority as favorite_priority,
+        f.created_at as favorited_at
+      FROM favorites f
+      JOIN stores s ON f.store_id = s.id
+      WHERE f.user_email = $1
+      ORDER BY f.created_at DESC
+    `, [userEmail]);
 
     // Transform data for CSV with all database fields
-    const csvData = result.stores.map(store => ({
+    const csvData = result.rows.map(store => ({
       'ID': store.id || '',
       '店铺名称': store.merchant_name || '',
       '域名': store.domain || '',
@@ -86,6 +86,11 @@ export async function GET(request: NextRequest) {
       '是否新客户': store.is_new_customer === true ? '是' : store.is_new_customer === false ? '否' : '未知',
       '广告最后检查时间': store.ads_last_checked || '',
 
+      // Favorite info
+      '收藏备注': store.favorite_notes || '',
+      '收藏优先级': store.favorite_priority || '',
+      '收藏时间': store.favorited_at || '',
+
       // Other
       '别名': store.aliases || '',
       '语言代码': store.language_code || '',
@@ -100,18 +105,9 @@ export async function GET(request: NextRequest) {
     // Add BOM for Excel UTF-8 support
     const csvWithBOM = '\uFEFF' + csv;
 
-    // Generate filename with filters
-    const filters: string[] = [];
-    if (params.country) filters.push(params.country);
-    if (params.state) filters.push(params.state);
-    if (params.city) filters.push(params.city);
-    if (params.hasGoogleAds === 'true') filters.push('有广告');
-    if (params.hasGoogleAds === 'false') filters.push('无广告');
-    if (params.isNewCustomer === 'true') filters.push('新客户');
-
-    const filterStr = filters.length > 0 ? `-${filters.join('-')}` : '';
+    // Generate filename
     const date = new Date().toISOString().split('T')[0];
-    const filename = `shopify-stores${filterStr}-${date}.csv`;
+    const filename = `我的收藏-${date}.csv`;
 
     // Return CSV file
     return new NextResponse(csvWithBOM, {
@@ -122,9 +118,9 @@ export async function GET(request: NextRequest) {
       },
     });
   } catch (error) {
-    console.error('CSV export error:', error);
+    console.error('Favorites CSV export error:', error);
     return NextResponse.json(
-      { error: 'Failed to export CSV' },
+      { error: 'Failed to export favorites' },
       { status: 500 }
     );
   }

@@ -75,13 +75,23 @@ export default function FavoritesPage() {
                 </p>
               </div>
             </div>
-            <Button
-              variant="secondary"
-              onClick={handleLogout}
-              className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30"
-            >
-              退出登录
-            </Button>
+            <div className="flex gap-2">
+              {favorites.length > 0 && (
+                <Button
+                  onClick={() => window.open('/api/export/favorites', '_blank')}
+                  className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30"
+                >
+                  📥 导出收藏 ({favorites.length}条)
+                </Button>
+              )}
+              <Button
+                variant="secondary"
+                onClick={handleLogout}
+                className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30"
+              >
+                退出登录
+              </Button>
+            </div>
           </div>
         </div>
       </header>
