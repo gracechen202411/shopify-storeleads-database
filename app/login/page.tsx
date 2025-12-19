@@ -31,8 +31,9 @@ export default function LoginPage() {
       const data = await response.json();
 
       if (response.ok) {
-        // Store the session token
+        // Store the session token and user email
         document.cookie = `auth-token=${data.token}; path=/; max-age=86400`; // 24 hours
+        document.cookie = `user_email=${username}@topsales.com; path=/; max-age=86400`; // 24 hours
         router.push('/');
       } else {
         setError(data.error || 'Login failed');
