@@ -12,8 +12,12 @@ import sys
 from datetime import datetime
 
 # Database connection
-DATABASE_URL = os.environ.get('DATABASE_URL',
-    'postgresql://neondb_owner:npg_7kil2gsDbcIf@ep-misty-star-ahewx63v-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require')
+DATABASE_URL = os.environ.get('DATABASE_URL')
+
+if not DATABASE_URL:
+    print("ERROR: Please set DATABASE_URL environment variable")
+    print("Run: source .env")
+    sys.exit(1)
 
 # Files to import
 FILES_TO_IMPORT = [

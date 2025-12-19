@@ -3,8 +3,19 @@
 echo "🚀 设置 Vercel 环境变量..."
 echo ""
 
-# 数据库 URL
-POSTGRES_URL="postgresql://neondb_owner:npg_7kil2gsDbcIf@ep-misty-star-ahewx63v-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require"
+# 从 .env 文件读取数据库 URL
+if [ ! -f .env ]; then
+    echo "❌ Error: .env file not found"
+    echo "Please create .env file with POSTGRES_URL"
+    exit 1
+fi
+
+source .env
+
+if [ -z "$POSTGRES_URL" ]; then
+    echo "❌ Error: POSTGRES_URL not set in .env"
+    exit 1
+fi
 
 echo "📊 设置 POSTGRES_URL..."
 echo "$POSTGRES_URL" | vercel env add POSTGRES_URL production
