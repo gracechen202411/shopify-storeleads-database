@@ -3,7 +3,7 @@ import type { NextRequest } from 'next/server';
 
 export function middleware(request: NextRequest) {
   // Check if user is accessing a protected route
-  const protectedPaths = ['/', '/store'];
+  const protectedPaths = ['/', '/store', '/favorites', '/analytics'];
   const isProtectedPath = protectedPaths.some(path =>
     request.nextUrl.pathname === path || request.nextUrl.pathname.startsWith(path + '/')
   );
@@ -11,7 +11,7 @@ export function middleware(request: NextRequest) {
   // Allow access to login page and API routes
   if (
     request.nextUrl.pathname.startsWith('/login') ||
-    request.nextUrl.pathname.startsWith('/api/auth') ||
+    request.nextUrl.pathname.startsWith('/api') ||
     request.nextUrl.pathname.startsWith('/_next') ||
     request.nextUrl.pathname.includes('.')
   ) {
