@@ -61,7 +61,7 @@ export default function AnalyticsPage() {
   const formatNumber = (num: number) => new Intl.NumberFormat().format(num);
 
   // Prepare customer type pie chart data
-  const customerTypePieData = googleAds?.customerTypes.map((item: any) => ({
+  const customerTypePieData = googleAds?.customerTypes?.map((item: any) => ({
     name: item.type === 'new_customer' ? '🔥 新客户' : item.type === 'no_ads' ? '⭕ 无广告' : '老客户',
     value: item.count
   })) || [];
@@ -223,14 +223,14 @@ export default function AnalyticsPage() {
         </div>
 
         {/* Recent Activity */}
-        {googleAds?.recentActivity && googleAds.recentActivity.length > 0 && (
+        {googleAds?.recentActivity && googleAds?.recentActivity.length > 0 && (
           <Card className="mb-8">
             <CardHeader>
               <CardTitle>近7天检查活动</CardTitle>
             </CardHeader>
             <CardContent>
               <ResponsiveContainer width="100%" height={250}>
-                <LineChart data={googleAds.recentActivity}>
+                <LineChart data={googleAds?.recentActivity || []}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="date" />
                   <YAxis />
@@ -245,7 +245,7 @@ export default function AnalyticsPage() {
         )}
 
         {/* Priority Targets Table */}
-        {traffic?.priorityTargets && traffic.priorityTargets.length > 0 && (
+        {traffic?.priorityTargets && traffic?.priorityTargets.length > 0 && (
           <Card>
             <CardHeader>
               <CardTitle>🎯 优先目标客户 (高访问量新客户)</CardTitle>
@@ -264,7 +264,7 @@ export default function AnalyticsPage() {
                     </tr>
                   </thead>
                   <tbody>
-                    {traffic.priorityTargets.slice(0, 20).map((store: any) => (
+                    {traffic?.priorityTargets?.slice(0, 20).map((store: any) => (
                       <tr key={store.id} className="border-b hover:bg-gray-50 dark:hover:bg-gray-800">
                         <td className="p-2 font-medium">{store.name}</td>
                         <td className="p-2 text-gray-600 dark:text-gray-400">{store.location}</td>
