@@ -1,0 +1,1809 @@
+====================================================================================================
+🔍 重新验证所有标记为'从未打广告'的店铺
+====================================================================================================
+
+原因：修复了 www 前缀问题和动态加载问题
+
+找到 192 个店铺需要重新验证
+
+示例店铺：
+  1. ventiontech.com - 311,609 访问/月 - Ningbo
+  2. uwowocosplay.com - 224,891 访问/月 - Hangzhou
+  3. leaptrend.com - 98,203 访问/月 - Wenzhou
+  4. rush-wave.com - 78,882 访问/月 - Quzhou
+  5. www.tfsafari.com - 75,729 访问/月 - Hangzhou
+  6. stigmaofficial.com - 69,560 访问/月 - Jinhua
+  7. honkai.shop - 66,137 访问/月 - Jiaxing
+  8. queenstudios.shop - 65,492 访问/月 - Hangzhou
+  9. yosudabikes.com - 53,461 访问/月 - Jinhua
+  10. pumiey.net - 43,604 访问/月 - Jinhua
+  ... 还有 182 个店铺
+
+自动开始验证这 192 个店铺...
+
+====================================================================================================
+开始验证...
+====================================================================================================
+
+Starting Chrome browser...
+✅ Browser started successfully
+[1/192] ventiontech.com... ✅ 确认无广告
+[2/192] uwowocosplay.com... ✅ 确认无广告
+[3/192] leaptrend.com... ✅ 确认无广告
+[4/192] rush-wave.com... ✅ 确认无广告
+[5/192] www.tfsafari.com... ✅ 确认无广告
+[6/192] stigmaofficial.com... ⚠️  实际有 10 个广告 - 之前误判！
+[7/192] honkai.shop... ✅ 确认无广告
+[8/192] queenstudios.shop... ✅ 确认无广告
+[9/192] yosudabikes.com... ⚠️  实际有 200 个广告 - 之前误判！
+[10/192] pumiey.net... ✅ 确认无广告
+[11/192] rpnbsafe.us... ⚠️  实际有 500 个广告 - 之前误判！
+[12/192] www.beadablebliss.com... ⚠️  实际有 70 个广告 - 之前误判！
+[13/192] rhinowalk.com... ✅ 确认无广告
+[14/192] www.naturnest.com... ⚠️  实际有 200 个广告 - 之前误判！
+[15/192] www.sensarte.net... ✅ 确认无广告
+[16/192] www.mewcats.com... ⚠️  实际有 50 个广告 - 之前误判！
+[17/192] topens.com... ⚠️  实际有 40 个广告 - 之前误判！
+[18/192] www.changliev.com... ✅ 确认无广告
+[19/192] www.ievilenergy.com... ⚠️  实际有 700 个广告 - 之前误判！
+[20/192] www.realsteelknives.com... ✅ 确认无广告
+[21/192] mall.sur-ron.com... ✅ 确认无广告
+[22/192] www.giantex.com... ⚠️  实际有 400 个广告 - 之前误判！
+[23/192] www.shopluebona.com... ⚠️  实际有 400 个广告 - 之前误判！
+[24/192] www.xbullauto.com... ⚠️  实际有 85 个广告 - 之前误判！
+[25/192] www.aostirmotor.com... ✅ 确认无广告
+[26/192] kawaiienvy.com... ✅ 确认无广告
+[27/192] dp200.yeswelder.com... ✅ 确认无广告
+[28/192] dustsilver.com... ✅ 确认无广告
+[29/192] 13demarzo.net... ⚠️  实际有 69 个广告 - 之前误判！
+[30/192] www.chinesesword.store... ✅ 确认无广告
+[31/192] unitreefitness.com... ✅ 确认无广告
+[32/192] thecottagecore.com... ✅ 确认无广告
+[33/192] www.intoyoucosmetics.com... ⚠️  实际有 8 个广告 - 之前误判！
+[34/192] bottlebottle.com... ✅ 确认无广告
+[35/192] www.costzon.com... ⚠️  实际有 200 个广告 - 之前误判！
+[36/192] www.graywindblinds.com... ⚠️  实际有 400 个广告 - 之前误判！
+[37/192] rfiver.com... ✅ 确认无广告
+[38/192] www.devaise.com... ✅ 确认无广告
+[39/192] plushwonderland.com... ✅ 确认无广告
+[40/192] www.acorpstyle.com... ⚠️  实际有 15 个广告 - 之前误判！
+[41/192] ingrem.com... ✅ 确认无广告
+[42/192] www.ravinte.com... ✅ 确认无广告
+[43/192] www.tangkula.com... ⚠️  实际有 200 个广告 - 之前误判！
+[44/192] gelshadow.com... ✅ 确认无广告
+[45/192] truetealife.com... ✅ 确认无广告
+[46/192] www.calembou.com... ⚠️  实际有 200 个广告 - 之前误判！
+[47/192] flasharkracing.com... ⚠️  实际有 1000 个广告 - 之前误判！
+[48/192] trekpower.com... ✅ 确认无广告
+[49/192] shop.unitree.com... ✅ 确认无广告
+[50/192] www.luckymanclubauto.com... ✅ 确认无广告
+[51/192] geeone.com... ✅ 确认无广告
+[52/192] ccmom.cc... ✅ 确认无广告
+[53/192] bellababy-med.com... ✅ 确认无广告
+[54/192] www.suncreatoutdoor.com... ⚠️  实际有 200 个广告 - 之前误判！
+[55/192] pikapikatc.com... ⚠️  实际有 200 个广告 - 之前误判！
+[56/192] perfumeuae.ae... ✅ 确认无广告
+[57/192] newbrothread-official.com... ✅ 确认无广告
+[58/192] www.gaahleri.com... ⚠️  实际有 87 个广告 - 之前误判！
+[59/192] momyknows.com... ⚠️  实际有 200 个广告 - 之前误判！
+[60/192] joycuff.com... ✅ 确认无广告
+[61/192] tatvida.com... ✅ 确认无广告
+[62/192] yosepower.com... ⚠️  实际有 200 个广告 - 之前误判！
+[63/192] www.chinese-showcase.com... ✅ 确认无广告
+[64/192] global.rokid.com... ✅ 确认无广告
+[65/192] pcinfuns.com... ✅ 确认无广告
+[66/192] www.dazzleaf.com... ✅ 确认无广告
+[67/192] www.nattorkskates.com... ⚠️  实际有 41 个广告 - 之前误判！
+[68/192] finetoo.com... ✅ 确认无广告
+[69/192] merrysvision.com... ✅ 确认无广告
+[70/192] www.iyasson.com... ✅ 确认无广告
+[71/192] www.greendevilsafety.com... ✅ 确认无广告
+[72/192] www.bronctattoo.com... ⚠️  实际有 30 个广告 - 之前误判！
+[73/192] forious.com... ✅ 确认无广告
+[74/192] www.jousenshoes.com... ✅ 确认无广告
+[75/192] www.ouradventurebook.com... ✅ 确认无广告
+[76/192] addlonlighting.com... ✅ 确认无广告
+[77/192] www.beadsland.com... ⚠️  实际有 11 个广告 - 之前误判！
+[78/192] www.jrdtools.com... ✅ 确认无广告
+[79/192] www.alltopusa.com... ✅ 确认无广告
+[80/192] uk.rokid.com... ✅ 确认无广告
+[81/192] www.acrabros.com... ⚠️  实际有 8 个广告 - 之前误判！
+[82/192] www.randysun.com... ⚠️  实际有 20 个广告 - 之前误判！
+[83/192] www.musegarden.com... ⚠️  实际有 12 个广告 - 之前误判！
+[84/192] store.yololiv.com... ✅ 确认无广告
+[85/192] baomain.com... ✅ 确认无广告
+[86/192] infimech.com... ✅ 确认无广告
+[87/192] bpdoctormed.com... ✅ 确认无广告
+[88/192] www.allewie.com... ✅ 确认无广告
+[89/192] www.nbd-direct.com... ✅ 确认无广告
+[90/192] levoite.com... ⚠️  实际有 400 个广告 - 之前误判！
+[91/192] www.powryte.com... ✅ 确认无广告
+[92/192] www.baseusclothing.com... ⚠️  实际有 12 个广告 - 之前误判！
+[93/192] 3dflyingbear.com... ✅ 确认无广告
+[94/192] www.wrapteck.com... ⚠️  实际有 11 个广告 - 之前误判！
+[95/192] mingfabricstore.com... ✅ 确认无广告
+[96/192] subihair.com... ✅ 确认无广告
+[97/192] honeypuffofficial.com... ✅ 确认无广告
+[98/192] www.chouyatou.com... ✅ 确认无广告
+[99/192] www.marcjanie.com... ⚠️  实际有 18 个广告 - 之前误判！
+[100/192] www.kvvsports.com... ⚠️  实际有 32 个广告 - 之前误判！
+[101/192] www.ambition-tattoo.com... ✅ 确认无广告
+[102/192] kevincoco-official.com... ✅ 确认无广告
+[103/192] www.vicllax.com... ⚠️  实际有 -1 个广告 - 之前误判！
+[104/192] www.fonirra.com... ✅ 确认无广告
+[105/192] www.vanlinkerstore.com... ✅ 确认无广告
+[106/192] superwingshome.com... ✅ 确认无广告
+[107/192] www.trikexplor.com... ✅ 确认无广告
+[108/192] www.dapuhome.com... ❌ Error checking www.dapuhome.com: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.147)
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6b0c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74196
+3   chromedriver                        0x0000000100d902c4 chromedriver + 213700
+4   chromedriver                        0x0000000100db35b4 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 126076
+5   chromedriver                        0x0000000100e15c40 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 529160
+6   chromedriver                        0x0000000100e2e4cc _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 629652
+7   chromedriver                        0x0000000100de216c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 317492
+8   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+9   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+10  chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+11  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+12  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+13  chromedriver                        0x000000010129bcb4 cxxbridge1$str$ptr + 2931588
+14  chromedriver                        0x000000010129be34 cxxbridge1$str$ptr + 2931972
+15  chromedriver                        0x00000001012ac788 cxxbridge1$str$ptr + 2999896
+16  libsystem_pthread.dylib             0x000000019ef64c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019ef5fba8 thread_start + 8
+
+❌ 检测失败
+[109/192] www.vekkia.com... ❌ Error checking www.vekkia.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[110/192] www.wholesalerhinestone.shop... ❌ Error checking www.wholesalerhinestone.shop: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[111/192] jp.rokid.com... ❌ Error checking jp.rokid.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[112/192] www.aofar.com... ❌ Error checking www.aofar.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[113/192] www.bseed.com... ❌ Error checking www.bseed.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[114/192] www.teyvatavern.com... ❌ Error checking www.teyvatavern.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[115/192] spsfurntiure.com... ❌ Error checking spsfurntiure.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[116/192] www.jewelrypersonalizer.com... ❌ Error checking www.jewelrypersonalizer.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[117/192] www.domedbazaar.com... ❌ Error checking www.domedbazaar.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[118/192] www.suprus.com... ❌ Error checking www.suprus.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[119/192] www.inginuity-time.com... ❌ Error checking www.inginuity-time.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[120/192] www.skirfy.com... ❌ Error checking www.skirfy.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[121/192] www.kipalm.com... ❌ Error checking www.kipalm.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[122/192] aecojoyshop.com... ❌ Error checking aecojoyshop.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[123/192] veposeshoes.com... ❌ Error checking veposeshoes.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[124/192] www.knoweasytool.com... ❌ Error checking www.knoweasytool.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[125/192] www.mrimin.com... ❌ Error checking www.mrimin.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[126/192] northaircool.com... ❌ Error checking northaircool.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[127/192] www.weasts.com... ❌ Error checking www.weasts.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[128/192] honestlighters.com... ❌ Error checking honestlighters.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[129/192] tentproinc.com... ❌ Error checking tentproinc.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[130/192] www.daierswitches.com... ❌ Error checking www.daierswitches.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[131/192] reveuseblender.com... ❌ Error checking reveuseblender.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[132/192] oakstills.com... ❌ Error checking oakstills.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[133/192] yimobra.com... ❌ Error checking yimobra.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[134/192] www.fly-freely.com... ❌ Error checking www.fly-freely.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[135/192] www.shopsouthernivy.com... ❌ Error checking www.shopsouthernivy.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[136/192] www.rybhome.com... ❌ Error checking www.rybhome.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[137/192] uk.bottlebottle.com... ❌ Error checking uk.bottlebottle.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[138/192] heschen.com... ❌ Error checking heschen.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[139/192] dorishomecard.com... ❌ Error checking dorishomecard.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[140/192] jcloudscentworld.com... ❌ Error checking jcloudscentworld.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[141/192] www.luckysonar.com... ❌ Error checking www.luckysonar.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[142/192] www.viozonstore.com... ❌ Error checking www.viozonstore.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[143/192] www.kdeam.com... ❌ Error checking www.kdeam.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[144/192] www.topcarstesla.com... ❌ Error checking www.topcarstesla.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[145/192] www.cnhairaccessories.com... ❌ Error checking www.cnhairaccessories.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[146/192] grmontrewatches.com... ❌ Error checking grmontrewatches.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[147/192] joymoop.net... ❌ Error checking joymoop.net: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[148/192] www.babyjoykids.com... ❌ Error checking www.babyjoykids.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[149/192] www.apiele.com... ❌ Error checking www.apiele.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[150/192] us.joyoung.com... ❌ Error checking us.joyoung.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[151/192] urvc.shop... ❌ Error checking urvc.shop: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[152/192] www.tonycandice.com... ❌ Error checking www.tonycandice.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[153/192] www.ultimateworks.net... ❌ Error checking www.ultimateworks.net: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[154/192] www.jinchanrugs.com... ❌ Error checking www.jinchanrugs.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[155/192] www.cosplayclan.com... ❌ Error checking www.cosplayclan.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[156/192] www.techwearnow.com... ❌ Error checking www.techwearnow.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[157/192] www.xidibei.com... ❌ Error checking www.xidibei.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[158/192] www.4fungift.com... ❌ Error checking www.4fungift.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[159/192] aizulhomey.com... ❌ Error checking aizulhomey.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[160/192] www.loosoostore.com... ❌ Error checking www.loosoostore.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[161/192] www.soing.org... ❌ Error checking www.soing.org: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[162/192] vatpave.com... ❌ Error checking vatpave.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[163/192] www.rheintattoosupply.com... ❌ Error checking www.rheintattoosupply.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[164/192] www.aorunning.com... ❌ Error checking www.aorunning.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[165/192] www.bearhard.top... ❌ Error checking www.bearhard.top: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[166/192] www.gippstore.com... ❌ Error checking www.gippstore.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[167/192] www.mayspareparts.com... ❌ Error checking www.mayspareparts.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[168/192] www.mrsiga.com... ❌ Error checking www.mrsiga.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[169/192] www.jdmspeedmotor.com... ❌ Error checking www.jdmspeedmotor.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[170/192] www.ironjias.com... ❌ Error checking www.ironjias.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[171/192] www.tdchinges.com... ❌ Error checking www.tdchinges.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[172/192] westlakechef.com... ❌ Error checking westlakechef.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[173/192] www.kaboondesk.com... ❌ Error checking www.kaboondesk.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[174/192] bestoffice.com... ❌ Error checking bestoffice.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[175/192] www.hikenture.com... ❌ Error checking www.hikenture.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[176/192] hawkwellonline.com... ❌ Error checking hawkwellonline.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[177/192] motpkgame.com... ❌ Error checking motpkgame.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[178/192] www.pwaccs.com... ❌ Error checking www.pwaccs.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[179/192] dragonlightstore.com... ❌ Error checking dragonlightstore.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[180/192] www.youtopoptical.com... ❌ Error checking www.youtopoptical.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[181/192] aostirmotor.bike... ❌ Error checking aostirmotor.bike: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[182/192] global.linovision.com... ❌ Error checking global.linovision.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[183/192] eu.linovision.com... ❌ Error checking eu.linovision.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[184/192] www.moonseasleep.com... ❌ Error checking www.moonseasleep.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[185/192] eu.bottlebottle.com... ❌ Error checking eu.bottlebottle.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[186/192] de.mideerart.com... ❌ Error checking de.mideerart.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[187/192] www.antelaglobal.com... ❌ Error checking www.antelaglobal.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[188/192] jadenature.com... ❌ Error checking jadenature.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[189/192] www.gkeemars.com... ❌ Error checking www.gkeemars.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[190/192] www.cxwxc.com... ❌ Error checking www.cxwxc.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[191/192] www.surfcuz.com... ❌ Error checking www.surfcuz.com: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+[192/192] yifanzhang.fans... ❌ Error checking yifanzhang.fans: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001012b4b2c cxxbridge1$str$ptr + 3033596
+1   chromedriver                        0x00000001012acb30 cxxbridge1$str$ptr + 3000832
+2   chromedriver                        0x0000000100da6970 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73784
+3   chromedriver                        0x0000000100de1538 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 314368
+4   chromedriver                        0x0000000100e0945c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 477988
+5   chromedriver                        0x0000000100e08890 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 474968
+6   chromedriver                        0x0000000100d756f8 chromedriver + 104184
+7   chromedriver                        0x0000000101278098 cxxbridge1$str$ptr + 2785128
+8   chromedriver                        0x000000010127b804 cxxbridge1$str$ptr + 2799316
+9   chromedriver                        0x0000000101258850 cxxbridge1$str$ptr + 2656032
+10  chromedriver                        0x000000010127c074 cxxbridge1$str$ptr + 2801476
+11  chromedriver                        0x00000001012491cc cxxbridge1$str$ptr + 2592924
+12  chromedriver                        0x0000000100d732c4 chromedriver + 94916
+13  dyld                                0x000000019eba5d54 start + 7184
+
+❌ 检测失败
+
+====================================================================================================
+📊 验证结果
+====================================================================================================
+
+✅ 确认无广告: 71 个店铺
+
+⚠️  误判（实际有广告）: 36 个店铺
+   误判的店铺：
+   - stigmaofficial.com (10 个广告)
+   - yosudabikes.com (200 个广告)
+   - rpnbsafe.us (500 个广告)
+   - www.beadablebliss.com (70 个广告)
+   - www.naturnest.com (200 个广告)
+   - www.mewcats.com (50 个广告)
+   - topens.com (40 个广告)
+   - www.ievilenergy.com (700 个广告)
+   - www.giantex.com (400 个广告)
+   - www.shopluebona.com (400 个广告)
+   - www.xbullauto.com (85 个广告)
+   - 13demarzo.net (69 个广告)
+   - www.intoyoucosmetics.com (8 个广告)
+   - www.costzon.com (200 个广告)
+   - www.graywindblinds.com (400 个广告)
+   - www.acorpstyle.com (15 个广告)
+   - www.tangkula.com (200 个广告)
+   - www.calembou.com (200 个广告)
+   - flasharkracing.com (1000 个广告)
+   - www.suncreatoutdoor.com (200 个广告)
+   - pikapikatc.com (200 个广告)
+   - www.gaahleri.com (87 个广告)
+   - momyknows.com (200 个广告)
+   - yosepower.com (200 个广告)
+   - www.nattorkskates.com (41 个广告)
+   - www.bronctattoo.com (30 个广告)
+   - www.beadsland.com (11 个广告)
+   - www.acrabros.com (8 个广告)
+   - www.randysun.com (20 个广告)
+   - www.musegarden.com (12 个广告)
+   - levoite.com (400 个广告)
+   - www.baseusclothing.com (12 个广告)
+   - www.wrapteck.com (11 个广告)
+   - www.marcjanie.com (18 个广告)
+   - www.kvvsports.com (32 个广告)
+   - www.vicllax.com (-1 个广告)
+
+❌ 检测失败: 85 个店铺
+   - www.dapuhome.com
+   - www.vekkia.com
+   - www.wholesalerhinestone.shop
+   - jp.rokid.com
+   - www.aofar.com
+   - www.bseed.com
+   - www.teyvatavern.com
+   - spsfurntiure.com
+   - www.jewelrypersonalizer.com
+   - www.domedbazaar.com
+   - www.suprus.com
+   - www.inginuity-time.com
+   - www.skirfy.com
+   - www.kipalm.com
+   - aecojoyshop.com
+   - veposeshoes.com
+   - www.knoweasytool.com
+   - www.mrimin.com
+   - northaircool.com
+   - www.weasts.com
+   - honestlighters.com
+   - tentproinc.com
+   - www.daierswitches.com
+   - reveuseblender.com
+   - oakstills.com
+   - yimobra.com
+   - www.fly-freely.com
+   - www.shopsouthernivy.com
+   - www.rybhome.com
+   - uk.bottlebottle.com
+   - heschen.com
+   - dorishomecard.com
+   - jcloudscentworld.com
+   - www.luckysonar.com
+   - www.viozonstore.com
+   - www.kdeam.com
+   - www.topcarstesla.com
+   - www.cnhairaccessories.com
+   - grmontrewatches.com
+   - joymoop.net
+   - www.babyjoykids.com
+   - www.apiele.com
+   - us.joyoung.com
+   - urvc.shop
+   - www.tonycandice.com
+   - www.ultimateworks.net
+   - www.jinchanrugs.com
+   - www.cosplayclan.com
+   - www.techwearnow.com
+   - www.xidibei.com
+   - www.4fungift.com
+   - aizulhomey.com
+   - www.loosoostore.com
+   - www.soing.org
+   - vatpave.com
+   - www.rheintattoosupply.com
+   - www.aorunning.com
+   - www.bearhard.top
+   - www.gippstore.com
+   - www.mayspareparts.com
+   - www.mrsiga.com
+   - www.jdmspeedmotor.com
+   - www.ironjias.com
+   - www.tdchinges.com
+   - westlakechef.com
+   - www.kaboondesk.com
+   - bestoffice.com
+   - www.hikenture.com
+   - hawkwellonline.com
+   - motpkgame.com
+   - www.pwaccs.com
+   - dragonlightstore.com
+   - www.youtopoptical.com
+   - aostirmotor.bike
+   - global.linovision.com
+   - eu.linovision.com
+   - www.moonseasleep.com
+   - eu.bottlebottle.com
+   - de.mideerart.com
+   - www.antelaglobal.com
+   - jadenature.com
+   - www.gkeemars.com
+   - www.cxwxc.com
+   - www.surfcuz.com
+   - yifanzhang.fans
+
+====================================================================================================
+✅ 验证完成
+准确率: 71/192 = 37.0%
+====================================================================================================

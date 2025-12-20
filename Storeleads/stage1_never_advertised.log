@@ -1,0 +1,226 @@
+Minimum monthly visits: 1,000
+Headless mode: True
+
+====================================================================================================
+🚀 Stage 1: Fast Check (Selenium)
+====================================================================================================
+
+✅ Found 147 target stores
+
+Target stores:
+  1. joymoop.net - 2,571 visits/month - Ningbo
+  2. www.babyjoykids.com - 2,539 visits/month - Jinhua
+  3. backdrop2go.com - 2,528 visits/month - Changzhou
+  4. www.apiele.com - 2,528 visits/month - Wenzhou
+  5. us.joyoung.com - 2,523 visits/month - Hangzhou
+  6. urvc.shop - 2,523 visits/month - Jinhua
+  7. www.tonycandice.com - 2,496 visits/month - Hangzhou
+  8. www.jinchanrugs.com - 2,470 visits/month - Hangzhou
+  9. www.ultimateworks.net - 2,470 visits/month - Hangzhou
+  10. www.cosplayclan.com - 2,465 visits/month - Hangzhou
+  11. www.techwearnow.com - 2,444 visits/month - Hangzhou
+  12. www.xidibei.com - 2,433 visits/month - Wenzhou
+  13. golfgentry.com - 2,428 visits/month - None
+  14. www.4fungift.com - 2,417 visits/month - Hangzhou
+  15. aizulhomey.com - 2,385 visits/month - Taizhou
+  16. woosir.com - 2,380 visits/month - Hangzhou
+  17. www.loosoostore.com - 2,380 visits/month - Wenzhou
+  18. www.soing.org - 2,375 visits/month - Hangzhou
+  19. vatpave.com - 2,338 visits/month - Hangzhou
+  20. www.rheintattoosupply.com - 2,327 visits/month - Hangzhou
+  21. panckydetectors.com - 2,327 visits/month - Ningbo
+  22. www.aorunning.com - 2,311 visits/month - Zhoushan
+  23. www.bearhard.top - 2,306 visits/month - Hangzhou
+  24. www.gippstore.com - 2,295 visits/month - Jinhua
+  25. wanhao.store - 2,290 visits/month - Hangzhou
+  26. www.mayspareparts.com - 2,290 visits/month - Wenzhou
+  27. wdpart.com - 2,285 visits/month - Hangzhou
+  28. www.mrsiga.com - 2,200 visits/month - Ningbo
+  29. www.jdmspeedmotor.com - 2,179 visits/month - Wenzhou
+  30. reliableinverters.com - 2,131 visits/month - Wenzhou
+  31. www.ironjias.com - 2,121 visits/month - Jinhua
+  32. www.tdchinges.com - 2,121 visits/month - Jiaxing
+  33. westlakechef.com - 2,116 visits/month - Hangzhou
+  34. hooloodistill.com - 2,116 visits/month - Hangzhou
+  35. www.kaboondesk.com - 2,105 visits/month - Hangzhou
+  36. bestoffice.com - 2,063 visits/month - Hangzhou
+  37. www.hikenture.com - 2,052 visits/month - Ningbo
+  38. noblemood.com - 2,041 visits/month - Ningbo
+  39. rvguardstore.com - 2,031 visits/month - Hangzhou
+  40. hawkwellonline.com - 2,026 visits/month - Taizhou
+  41. motpkgame.com - 2,026 visits/month - Ningbo
+  42. www.pwaccs.com - 2,010 visits/month - Taizhou
+  43. dragonlightstore.com - 1,999 visits/month - Wenzhou
+  44. sunvivi.com - 1,989 visits/month - Ningbo
+  45. www.youtopoptical.com - 1,973 visits/month - Wenzhou
+  46. aostirmotor.bike - 1,968 visits/month - Changzhou
+  47. global.linovision.com - 1,957 visits/month - Hangzhou
+  48. eu.linovision.com - 1,957 visits/month - Hangzhou
+  49. www.moonseasleep.com - 1,930 visits/month - Hangzhou
+  50. h-versailtex.com - 1,920 visits/month - Shaoxing
+  51. eu.bottlebottle.com - 1,893 visits/month - Hangzhou
+  52. de.mideerart.com - 1,893 visits/month - Ningbo
+  53. www.antelaglobal.com - 1,877 visits/month - Hangzhou
+  54. jadenature.com - 1,877 visits/month - Hangzhou
+  55. www.gkeemars.com - 1,851 visits/month - Wenzhou
+  56. www.cxwxc.com - 1,809 visits/month - Jinhua
+  57. mogusuit.com - 1,793 visits/month - Hangzhou
+  58. neoeco-airbrush.com - 1,772 visits/month - Ningbo
+  59. sweejar.com - 1,767 visits/month - Hangzhou
+  60. www.surfcuz.com - 1,714 visits/month - Changzhou
+  61. yifanzhang.fans - 1,703 visits/month - Ningbo
+  62. feversole.com - 1,698 visits/month - Hangzhou
+  63. sleepmdog.com - 1,687 visits/month - Jinhua
+  64. fullovenail.com - 1,687 visits/month - Hangzhou
+  65. de-de.tromox.com - 1,682 visits/month - Hangzhou
+  66. fr-fr.tromox.com - 1,682 visits/month - Hangzhou
+  67. www.medasia.store - 1,676 visits/month - None
+  68. tivoliknife.com - 1,676 visits/month - Jinhua
+  69. elitetattoo.com - 1,655 visits/month - Jinhua
+  70. www.xdeersafe.com - 1,623 visits/month - Ningbo
+  71. pupteck.com - 1,618 visits/month - Jiaxing
+  72. www.ufqaviation.com - 1,608 visits/month - Ningbo
+  73. www.jogal.com - 1,608 visits/month - Hangzhou
+  74. herodaughter.com - 1,597 visits/month - Jinhua
+  75. geekpure.cc - 1,592 visits/month - Ningbo
+  76. xnettattoosupply.com - 1,581 visits/month - Jinhua
+  77. claybeadstore.com - 1,581 visits/month - Jinhua
+  78. www.icebathclub.com - 1,576 visits/month - Hangzhou
+  79. happyflute.com - 1,555 visits/month - Hangzhou
+  80. boentools.com - 1,539 visits/month - Ningbo
+  81. www.maidesite.de - 1,534 visits/month - Hangzhou
+  82. rushfpv.net - 1,528 visits/month - Changzhou
+  83. maksone.com - 1,502 visits/month - Ningbo
+  84. lnowsport.com - 1,502 visits/month - Hangzhou
+  85. sunkiss.care - 1,486 visits/month - Hangzhou
+  86. www.hummingbirdrotary.com - 1,460 visits/month - Jinhua
+  87. www.realsteelknives.de - 1,460 visits/month - Hangzhou
+  88. www.bololo.net - 1,460 visits/month - Ningbo
+  89. broaddict.com - 1,454 visits/month - Changzhou
+  90. umaystore.com - 1,449 visits/month - Hangzhou
+  91. www.icoloured.com - 1,444 visits/month - Wenzhou
+  92. www.zjpaddle.com - 1,438 visits/month - Hangzhou
+  93. www.measureman.com - 1,422 visits/month - Ningbo
+  94. clostnature.com - 1,422 visits/month - Jinhua
+  95. mooxno.com - 1,407 visits/month - Taizhou
+  96. bshetrunderwear.com - 1,407 visits/month - Jinhua
+  97. reechohair.com - 1,385 visits/month - Jinhua
+  98. www.jinchancurtain.com - 1,359 visits/month - Hangzhou
+  99. somiliss.com - 1,354 visits/month - Wenzhou
+  100. www.katbite.com - 1,354 visits/month - Hangzhou
+  101. waystudios.shop - 1,349 visits/month - Ningbo
+  102. jeeteehome.com - 1,349 visits/month - Jinhua
+  103. www.sellgoodcar.com - 1,322 visits/month - Hangzhou
+  104. www.urbandrift.com - 1,306 visits/month - Taizhou
+  105. headaklife.com - 1,301 visits/month - Hangzhou
+  106. mrbite.net - 1,290 visits/month - Jinhua
+  107. apsmile.com - 1,285 visits/month - Hangzhou
+  108. inrosy.com - 1,274 visits/month - Jinhua
+  109. astracycle.com - 1,269 visits/month - Hangzhou
+  110. www.mywelford.com - 1,243 visits/month - Hangzhou
+  111. thermaestudio.com - 1,243 visits/month - Hangzhou
+  112. www.phoeracosmetics.com - 1,237 visits/month - Jinhua
+  113. mare-azzuro.com - 1,237 visits/month - Wenzhou
+  114. mambobaby.shop - 1,237 visits/month - Jinhua
+  115. magnet-pro.com - 1,232 visits/month - Ningbo
+  116. akmax.shop - 1,232 visits/month - Hangzhou
+  117. www.gookishop.com - 1,227 visits/month - Hangzhou
+  118. www.minimalgadget.com - 1,216 visits/month - Hangzhou
+  119. www.gradodesign.us - 1,216 visits/month - Hangzhou
+  120. www.mummytattoos.com - 1,211 visits/month - Jinhua
+  121. www.sunshine-fishing.com - 1,211 visits/month - Hangzhou
+  122. www.fabricangie.com - 1,206 visits/month - Jinhua
+  123. everyfite.com - 1,206 visits/month - Jinhua
+  124. ikalicostume.com - 1,200 visits/month - Jiaxing
+  125. babyexo.com - 1,190 visits/month - Jinhua
+  126. es.rokid.com - 1,174 visits/month - Hangzhou
+  127. www.owdencraft.com - 1,174 visits/month - Ningbo
+  128. deskeys.io - 1,147 visits/month - Hangzhou
+  129. voguishli.com - 1,142 visits/month - Hangzhou
+  130. fenrir-moto.com - 1,137 visits/month - Wenzhou
+  131. yasongalarm.com - 1,137 visits/month - Hangzhou
+  132. pbt.fans - 1,126 visits/month - Changzhou
+  133. voboom.com - 1,116 visits/month - Jinhua
+  134. www.porphis-online.com - 1,116 visits/month - Ningbo
+  135. www.bazova-home.com - 1,105 visits/month - Hangzhou
+  136. www.charmkingus.com - 1,105 visits/month - Jinhua
+  137. verilady.jp - 1,068 visits/month - Hangzhou
+  138. www.hellofyc.com - 1,068 visits/month - Ningbo
+  139. prostormer.us - 1,058 visits/month - Ningbo
+  140. emallaofficial.com - 1,052 visits/month - Hangzhou
+  141. www.nereidstudios.com - 1,047 visits/month - Shaoxing
+  142. kensonetrampoline.com - 1,047 visits/month - Lishui
+  143. www.koraman.net - 1,042 visits/month - Hangzhou
+  144. linkboyarchery.com - 1,042 visits/month - Ningbo
+  145. cool-ski.com - 1,031 visits/month - Hangzhou
+  146. ewavesurf.com - 1,020 visits/month - Hangzhou
+  147. taichizidong.com - 1,005 visits/month - Hangzhou
+
+Starting Chrome browser...
+✅ Browser started successfully
+====================================================================================================
+Checking stores...
+====================================================================================================
+
+[1/147] Checking joymoop.net... ✅ never_advertised (0 ads)
+[2/147] Checking www.babyjoykids.com... ✅ never_advertised (0 ads)
+[3/147] Checking backdrop2go.com... 📊 has_ads (4 ads)
+[4/147] Checking www.apiele.com... ✅ never_advertised (0 ads)
+[5/147] Checking us.joyoung.com... ✅ never_advertised (0 ads)
+[6/147] Checking urvc.shop... ✅ never_advertised (0 ads)
+[7/147] Checking www.tonycandice.com... ✅ never_advertised (0 ads)
+[8/147] Checking www.jinchanrugs.com... ✅ never_advertised (0 ads)
+[9/147] Checking www.ultimateworks.net... ✅ never_advertised (0 ads)
+[10/147] Checking www.cosplayclan.com... ✅ never_advertised (0 ads)
+[11/147] Checking www.techwearnow.com... ✅ never_advertised (0 ads)
+[12/147] Checking www.xidibei.com... ✅ never_advertised (0 ads)
+[13/147] Checking golfgentry.com... 📊 has_ads (200 ads)
+[14/147] Checking www.4fungift.com... ✅ never_advertised (0 ads)
+[15/147] Checking aizulhomey.com... ✅ never_advertised (0 ads)
+[16/147] Checking woosir.com... 📊 has_ads (92 ads)
+[17/147] Checking www.loosoostore.com... ✅ never_advertised (0 ads)
+[18/147] Checking www.soing.org... ✅ never_advertised (0 ads)
+[19/147] Checking vatpave.com... ✅ never_advertised (0 ads)
+[20/147] Checking www.rheintattoosupply.com... ✅ never_advertised (0 ads)
+[21/147] Checking panckydetectors.com... 📊 has_ads (1 ads)
+[22/147] Checking www.aorunning.com... ✅ never_advertised (0 ads)
+[23/147] Checking www.bearhard.top... ✅ never_advertised (0 ads)
+[24/147] Checking www.gippstore.com... ✅ never_advertised (0 ads)
+[25/147] Checking wanhao.store... 📊 has_ads (1 ads)
+[26/147] Checking www.mayspareparts.com... ✅ never_advertised (0 ads)
+[27/147] Checking wdpart.com... 📊 has_ads (10 ads)
+[28/147] Checking www.mrsiga.com... ✅ never_advertised (0 ads)
+[29/147] Checking www.jdmspeedmotor.com... ✅ never_advertised (0 ads)
+[30/147] Checking reliableinverters.com... 📊 has_ads (11 ads)
+[31/147] Checking www.ironjias.com... ✅ never_advertised (0 ads)
+[32/147] Checking www.tdchinges.com... ✅ never_advertised (0 ads)
+[33/147] Checking westlakechef.com... ✅ never_advertised (0 ads)
+[34/147] Checking hooloodistill.com... 📊 has_ads (3 ads)
+[35/147] Checking www.kaboondesk.com... ✅ never_advertised (0 ads)
+[36/147] Checking bestoffice.com... ✅ never_advertised (0 ads)
+[37/147] Checking www.hikenture.com... ✅ never_advertised (0 ads)
+[38/147] Checking noblemood.com... 📊 has_ads (69 ads)
+[39/147] Checking rvguardstore.com... 📊 has_ads (26 ads)
+[40/147] Checking hawkwellonline.com... ✅ never_advertised (0 ads)
+[41/147] Checking motpkgame.com... ✅ never_advertised (0 ads)
+[42/147] Checking www.pwaccs.com... ✅ never_advertised (0 ads)
+[43/147] Checking dragonlightstore.com... ✅ never_advertised (0 ads)
+[44/147] Checking sunvivi.com... 📊 has_ads (3 ads)
+[45/147] Checking www.youtopoptical.com... ✅ never_advertised (0 ads)
+[46/147] Checking aostirmotor.bike... ✅ never_advertised (0 ads)
+[47/147] Checking global.linovision.com... ✅ never_advertised (0 ads)
+[48/147] Checking eu.linovision.com... ✅ never_advertised (0 ads)
+[49/147] Checking www.moonseasleep.com... ✅ never_advertised (0 ads)
+[50/147] Checking h-versailtex.com... 📊 has_ads (2 ads)
+[51/147] Checking eu.bottlebottle.com... ✅ never_advertised (0 ads)
+[52/147] Checking de.mideerart.com... ✅ never_advertised (0 ads)
+[53/147] Checking www.antelaglobal.com... ✅ never_advertised (0 ads)
+[54/147] Checking jadenature.com... ✅ never_advertised (0 ads)
+[55/147] Checking www.gkeemars.com... ✅ never_advertised (0 ads)
+[56/147] Checking www.cxwxc.com... ✅ never_advertised (0 ads)
+[57/147] Checking mogusuit.com... 📊 has_ads (25 ads)
+[58/147] Checking neoeco-airbrush.com... 📊 has_ads (1 ads)
+[59/147] Checking sweejar.com... 📊 has_ads (8 ads)
+[60/147] Checking www.surfcuz.com... ✅ never_advertised (0 ads)
+[61/147] Checking yifanzhang.fans... ✅ never_advertised (0 ads)
+[62/147] Checking feversole.com... 

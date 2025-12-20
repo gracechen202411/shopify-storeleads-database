@@ -58,6 +58,8 @@ export interface Store {
   has_google_ads?: boolean;
   google_ads_count?: number;
   is_new_customer?: boolean;
+  customer_type?: string; // 'never_advertised' | 'new_advertiser_30d' | 'old_advertiser' | 'has_ads' | 'needs_manual_review'
+  ads_check_level?: number; // 1 = fast check, 2 = date check
   ads_last_checked?: string;
 
   // Other
@@ -78,6 +80,7 @@ export interface SearchParams {
   status?: string;
   hasGoogleAds?: string;
   isNewCustomer?: string;
+  customerType?: string; // 'never_advertised' | 'new_advertiser_30d' | 'old_advertiser'
   page?: number;
   limit?: number;
 }
@@ -95,6 +98,7 @@ export async function searchStores(params: SearchParams) {
     status = '',
     hasGoogleAds = '',
     isNewCustomer = '',
+    customerType = '',
     page = 1,
     limit = 50
   } = params;
@@ -178,11 +182,18 @@ export async function searchStores(params: SearchParams) {
     whereConditions.push(`has_google_ads = false`);
   }
 
-  // New customer filter
+  // New customer filter (legacy support)
   if (isNewCustomer === 'true') {
     whereConditions.push(`is_new_customer = true`);
   } else if (isNewCustomer === 'false') {
     whereConditions.push(`is_new_customer = false`);
+  }
+
+  // Customer type filter (new preferred method)
+  if (customerType) {
+    whereConditions.push(`customer_type = $${paramCount}`);
+    queryParams.push(customerType);
+    paramCount++;
   }
 
   const whereClause = whereConditions.length > 0
@@ -202,7 +213,7 @@ export async function searchStores(params: SearchParams) {
       country_code, city, state, estimated_monthly_visits,
       estimated_yearly_sales, employee_count, rank, platform_rank,
       status, plan, created, domain_url, instagram, facebook, twitter, tiktok,
-      has_google_ads, google_ads_count, is_new_customer, ads_last_checked
+      has_google_ads, google_ads_count, is_new_customer, customer_type, ads_check_level, ads_last_checked
     FROM stores
     ${whereClause}
     ORDER BY estimated_monthly_visits DESC NULLS LAST

@@ -3,28 +3,30 @@ import { sql } from '@vercel/postgres';
 
 export async function GET() {
   try {
-    // Customer type distribution
+    // Customer type distribution (using new customer_type field)
     const customerTypeResult = await sql.query(`
       SELECT
-        CASE
-          WHEN has_google_ads = false OR has_google_ads IS NULL THEN 'no_ads'
-          WHEN is_new_customer = true THEN 'new_customer'
-          ELSE 'existing_customer'
-        END as customer_type,
+        COALESCE(customer_type,
+          CASE
+            WHEN has_google_ads = false OR has_google_ads IS NULL THEN 'no_ads'
+            WHEN is_new_customer = true THEN 'new_customer'
+            ELSE 'existing_customer'
+          END
+        ) as customer_type,
         COUNT(*) as count
       FROM stores
-      WHERE ads_last_checked IS NOT NULL
+      WHERE ads_last_checked IS NOT NULL OR customer_type IS NOT NULL
       GROUP BY customer_type
     `);
 
-    // New customers by province (China focus)
+    // New customers by province (China focus) - using new customer_type field
     const provincesResult = await sql.query(`
       SELECT
         state,
         COUNT(*) as new_customer_count,
         SUM(estimated_monthly_visits) as total_visits
       FROM stores
-      WHERE is_new_customer = true
+      WHERE (customer_type = 'new_advertiser_30d' OR (customer_type IS NULL AND is_new_customer = true))
         AND country_code = 'CN'
         AND state IS NOT NULL
         AND state != ''
@@ -62,7 +64,7 @@ export async function GET() {
       SELECT
         DATE(ads_last_checked) as check_date,
         COUNT(*) as stores_checked,
-        COUNT(CASE WHEN is_new_customer = true THEN 1 END) as new_customers_found
+        COUNT(CASE WHEN customer_type = 'new_advertiser_30d' OR (customer_type IS NULL AND is_new_customer = true) THEN 1 END) as new_customers_found
       FROM stores
       WHERE ads_last_checked >= CURRENT_DATE - INTERVAL '7 days'
       GROUP BY DATE(ads_last_checked)
