@@ -114,14 +114,20 @@ export default function StoreCard({ store, viewMode = 'grid' }: StoreCardProps) 
               <span className={`px-2 py-1 rounded text-xs ${store.status === 'Active' ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200' : 'bg-gray-100 text-gray-800'}`}>
                 {store.status}
               </span>
-              {store.has_google_ads !== undefined && store.has_google_ads !== null && (
-                <span className={`px-2 py-1 rounded text-xs ${
-                  store.is_new_customer
-                    ? 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200'
-                    : 'bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-300'
-                }`}>
-                  {store.is_new_customer ? '🔥 New Customer' : '📊 Has Ads'}
-                </span>
+              {store.has_google_ads !== undefined && store.has_google_ads !== null && store.has_google_ads && (
+                <a
+                  href={`https://adstransparency.google.com/?region=anywhere&domain=${store.domain.replace('www.', '')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`px-2 py-1 rounded text-xs hover:underline ${
+                    store.customer_type === 'new_advertiser_30d' || store.is_new_customer
+                      ? 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200'
+                      : 'bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-300'
+                  }`}
+                  title="View on Google Ads Transparency Center"
+                >
+                  {store.customer_type === 'new_advertiser_30d' || store.is_new_customer ? '🔥 New Customer' : '📊 Has Ads'} 🔗
+                </a>
               )}
             </div>
           </div>
@@ -226,11 +232,30 @@ export default function StoreCard({ store, viewMode = 'grid' }: StoreCardProps) 
           <>
             <div>
               <span className="text-gray-500 dark:text-gray-400">Google Ads:</span>
-              <p className="font-medium">{store.has_google_ads ? `${store.google_ads_count || 0} ads` : 'No ads'}</p>
+              <p className="font-medium">
+                {store.has_google_ads ? (
+                  <a
+                    href={`https://adstransparency.google.com/?region=anywhere&domain=${store.domain.replace('www.', '')}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                    title="View on Google Ads Transparency Center"
+                  >
+                    {store.google_ads_count || 0} ads 🔗
+                  </a>
+                ) : (
+                  'No ads'
+                )}
+              </p>
             </div>
             <div>
               <span className="text-gray-500 dark:text-gray-400">Customer Type:</span>
-              <p className="font-medium">{store.is_new_customer ? '🔥 New' : 'Existing'}</p>
+              <p className="font-medium">
+                {store.customer_type === 'new_advertiser_30d' ? '🔥 New' :
+                 store.customer_type === 'old_advertiser' ? 'Existing' :
+                 store.customer_type === 'never_advertised' ? 'Never advertised' :
+                 store.is_new_customer ? '🔥 New' : 'Existing'}
+              </p>
             </div>
           </>
         )}
