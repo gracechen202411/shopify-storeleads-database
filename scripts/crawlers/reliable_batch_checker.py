@@ -13,9 +13,14 @@ import asyncio
 import psycopg2
 import json
 import time
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
+
+# 添加 scripts 目录到 path 以便导入模块
+sys.path.append(str(Path(__file__).parent.parent))
+from db_config import get_db_connection
 
 try:
     from playwright.async_api import async_playwright
@@ -26,17 +31,12 @@ except ImportError:
     subprocess.run(["playwright", "install", "chromium"], check=True)
     from playwright.async_api import async_playwright
 
-# 数据库配置
-DB_CONFIG = {
-    'host': 'ep-misty-star-ahewx63v-pooler.c-3.us-east-1.aws.neon.tech',
-    'database': 'neondb',
-    'user': 'neondb_owner',
-    'password': 'npg_7kil2gsDbcIf',
-    'sslmode': 'require'
-}
-
 # 配置
-CONCURRENT_BROWSERS = 16  # 增加并发数
+CONCURRENT_BROWSERS = 16  # 增加并发数到 16
+TIMEOUT = 10000  # 减少超时时间
+BATCH_SIZE = 20  # 每 20 个域名 commit 一次
+MAX_RETRIES = 2  # 最多重试 2 次
+PROGRESS_FILE = 'batch_progress.json'
 TIMEOUT = 10000  # 减少超时时间
 BATCH_SIZE = 20  # 每 20 个域名 commit 一次
 MAX_RETRIES = 2  # 最多重试 2 次
@@ -73,7 +73,7 @@ class ReliableBatchChecker:
         """连接数据库（带重试）"""
         for i in range(3):
             try:
-                self.conn = psycopg2.connect(**DB_CONFIG)
+                self.conn = get_db_connection()
                 print(f"✅ 数据库连接成功")
                 return True
             except Exception as e:
