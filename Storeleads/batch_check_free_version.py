@@ -53,7 +53,9 @@ class FreeGoogleAdsChecker:
             'advertiser': '广告主名称' (如果有)
         }
         """
-        url = f'https://adstransparency.google.com/?region=anywhere&domain={domain}'
+        # 去掉 www. 前缀，确保查询准确
+        check_domain = domain.replace('www.', '').strip()
+        url = f'https://adstransparency.google.com/?region=anywhere&domain={check_domain}'
 
         try:
             # 访问页面
