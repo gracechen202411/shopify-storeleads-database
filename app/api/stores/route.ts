@@ -16,7 +16,6 @@ export async function GET(request: NextRequest) {
       maxVisits: parseInt(searchParams.get('maxVisits') || '999999999'),
       status: searchParams.get('status') || '',
       hasGoogleAds: searchParams.get('hasGoogleAds') || '',
-      isNewCustomer: searchParams.get('isNewCustomer') || '',
       customerType: searchParams.get('customerType') || '',
       page: parseInt(searchParams.get('page') || '1'),
       limit: parseInt(searchParams.get('limit') || '50')

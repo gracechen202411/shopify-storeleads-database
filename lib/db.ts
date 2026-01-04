@@ -79,7 +79,6 @@ export interface SearchParams {
   maxVisits?: number;
   status?: string;
   hasGoogleAds?: string;
-  isNewCustomer?: string;
   customerType?: string; // 'never_advertised' | 'new_advertiser_30d' | 'old_advertiser'
   page?: number;
   limit?: number;
@@ -97,7 +96,6 @@ export async function searchStores(params: SearchParams) {
     maxVisits = 999999999,
     status = '',
     hasGoogleAds = '',
-    isNewCustomer = '',
     customerType = '',
     page = 1,
     limit = 50
@@ -180,13 +178,6 @@ export async function searchStores(params: SearchParams) {
     whereConditions.push(`has_google_ads = true`);
   } else if (hasGoogleAds === 'false') {
     whereConditions.push(`has_google_ads = false`);
-  }
-
-  // New customer filter (legacy support)
-  if (isNewCustomer === 'true') {
-    whereConditions.push(`is_new_customer = true`);
-  } else if (isNewCustomer === 'false') {
-    whereConditions.push(`is_new_customer = false`);
   }
 
   // Customer type filter (new preferred method)

@@ -44,7 +44,6 @@ export default function Home() {
     minEmployees: '',
     hasSocial: '',
     hasGoogleAds: '',
-    isNewCustomer: '',
   });
 
   const handleLogout = async () => {
@@ -84,7 +83,6 @@ export default function Home() {
         ...(filters.minEmployees && { minEmployees: filters.minEmployees }),
         ...(filters.hasSocial && { hasSocial: filters.hasSocial }),
         ...(filters.hasGoogleAds && { hasGoogleAds: filters.hasGoogleAds }),
-        ...(filters.isNewCustomer && { isNewCustomer: filters.isNewCustomer }),
       });
 
       const response = await fetch(`/api/stores?${params}`);
@@ -355,7 +353,7 @@ export default function Home() {
               </div>
 
               {/* Row 3: Social & Ads */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">社交媒体</label>
                   <select
@@ -380,20 +378,7 @@ export default function Home() {
                   >
                     <option value="">全部</option>
                     <option value="true">📊 有广告</option>
-                    <option value="false">⭕ 无广告</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">客户类型</label>
-                  <select
-                    value={filters.isNewCustomer}
-                    onChange={(e) => setFilters({ ...filters, isNewCustomer: e.target.value })}
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
-                  >
-                    <option value="">全部</option>
-                    <option value="true">🔥 新客户</option>
-                    <option value="false">老客户</option>
+                    <option value="false">⭕ 无广告 (潜在客户)</option>
                   </select>
                 </div>
               </div>
@@ -421,7 +406,6 @@ export default function Home() {
                   minEmployees: '',
                   hasSocial: '',
                   hasGoogleAds: '',
-                  isNewCustomer: '',
                 });
                 performSearch('', 1);
               }}
@@ -464,7 +448,6 @@ export default function Home() {
                       ...(filters.minEmployees && { minEmployees: filters.minEmployees }),
                       ...(filters.hasSocial && { hasSocial: filters.hasSocial }),
                       ...(filters.hasGoogleAds && { hasGoogleAds: filters.hasGoogleAds }),
-                      ...(filters.isNewCustomer && { isNewCustomer: filters.isNewCustomer }),
                     });
                     window.open(`/api/export/csv?${params}`, '_blank');
                   }}
