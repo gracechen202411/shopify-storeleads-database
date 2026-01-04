@@ -36,8 +36,8 @@ DB_CONFIG = {
 }
 
 # 配置
-CONCURRENT_BROWSERS = 8  # 增加并发数
-TIMEOUT = 12000  # 减少超时时间
+CONCURRENT_BROWSERS = 16  # 增加并发数
+TIMEOUT = 10000  # 减少超时时间
 BATCH_SIZE = 20  # 每 20 个域名 commit 一次
 MAX_RETRIES = 2  # 最多重试 2 次
 PROGRESS_FILE = 'batch_progress.json'
@@ -84,6 +84,11 @@ class ReliableBatchChecker:
     async def check_single_domain(self, page, domain: str, retry_count: int = 0) -> Optional[Dict]:
         """检查单个域名（带重试）"""
         try:
+            # 开启请求拦截，加速加载
+            await page.route("**/*", lambda route: route.abort() 
+                if route.request.resource_type in ["image", "media", "font", "stylesheet"] 
+                else route.continue_())
+
             # 去掉 www. 前缀，确保查询准确
             check_domain = domain.replace('www.', '').strip()
             url = f'https://adstransparency.google.com/?region=anywhere&domain={check_domain}'
