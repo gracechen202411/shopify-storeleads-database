@@ -43,3 +43,5 @@ __pycache__/
 # CSV chunks
 chunks/
 *.csv
+# But allow CSV files in data/exports directory
+!data/exports/*.csv
