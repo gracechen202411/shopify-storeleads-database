@@ -62,6 +62,11 @@ export interface Store {
   ads_check_level?: number; // 1 = fast check, 2 = date check
   ads_last_checked?: string;
 
+  // Customily App info
+  has_customily?: boolean;
+  customily_check_date?: string;
+  customily_details?: string;
+
   // Other
   aliases?: string;
   language_code?: string;
@@ -80,6 +85,7 @@ export interface SearchParams {
   status?: string;
   hasGoogleAds?: string;
   customerType?: string; // 'never_advertised' | 'new_advertiser_30d' | 'old_advertiser'
+  hasCustomily?: string; // 'true' | 'false'
   page?: number;
   limit?: number;
 }
@@ -97,6 +103,7 @@ export async function searchStores(params: SearchParams) {
     status = '',
     hasGoogleAds = '',
     customerType = '',
+    hasCustomily = '',
     page = 1,
     limit = 50
   } = params;
@@ -187,6 +194,20 @@ export async function searchStores(params: SearchParams) {
     paramCount++;
   }
 
+  // Customer type filter (new preferred method)
+  if (customerType) {
+    whereConditions.push(`customer_type = ${paramCount}`);
+    queryParams.push(customerType);
+    paramCount++;
+  }
+
+  // Customily filter
+  if (hasCustomily === 'true') {
+    whereConditions.push(`has_customily = true`);
+  } else if (hasCustomily === 'false') {
+    whereConditions.push(`has_customily = false`);
+  }
+
   const whereClause = whereConditions.length > 0
     ? `WHERE ${whereConditions.join(' AND ')}`
     : '';
@@ -204,7 +225,8 @@ export async function searchStores(params: SearchParams) {
       country_code, city, state, estimated_monthly_visits,
       estimated_yearly_sales, employee_count, rank, platform_rank,
       status, plan, created, domain_url, instagram, facebook, twitter, tiktok,
-      has_google_ads, google_ads_count, is_new_customer, customer_type, ads_check_level, ads_last_checked
+      has_google_ads, google_ads_count, is_new_customer, customer_type, ads_check_level, ads_last_checked,
+      has_customily, customily_check_date, customily_details
     FROM stores
     ${whereClause}
     ORDER BY estimated_monthly_visits DESC NULLS LAST

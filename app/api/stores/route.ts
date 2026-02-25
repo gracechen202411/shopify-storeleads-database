@@ -17,6 +17,7 @@ export async function GET(request: NextRequest) {
       status: searchParams.get('status') || '',
       hasGoogleAds: searchParams.get('hasGoogleAds') || '',
       customerType: searchParams.get('customerType') || '',
+      hasCustomily: searchParams.get('hasCustomily') || '',
       page: parseInt(searchParams.get('page') || '1'),
       limit: parseInt(searchParams.get('limit') || '50')
     };
